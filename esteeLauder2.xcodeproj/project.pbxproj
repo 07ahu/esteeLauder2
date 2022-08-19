@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0EF06F28AF2BCA0042B84C /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EF06E28AF2BC60042B84C /* MoreViewController.swift */; };
 		BD2104E928A9DC0000EF56F5 /* NightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2104E828A9DC0000EF56F5 /* NightViewController.swift */; };
 		BD2104ED28AB3C7A00EF56F5 /* HydrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2104EC28AB3C7A00EF56F5 /* HydrateViewController.swift */; };
 		BD46AD9028A6AB850040BD2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD46AD8F28A6AB850040BD2A /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD0EF06E28AF2BC60042B84C /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		BD2104E828A9DC0000EF56F5 /* NightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightViewController.swift; sourceTree = "<group>"; };
 		BD2104EC28AB3C7A00EF56F5 /* HydrateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrateViewController.swift; sourceTree = "<group>"; };
 		BD46AD8C28A6AB850040BD2A /* esteeLauder2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esteeLauder2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 		BD46AD8E28A6AB850040BD2A /* esteeLauder2 */ = {
 			isa = PBXGroup;
 			children = (
+				BD0EF06E28AF2BC60042B84C /* MoreViewController.swift */,
 				BD46AD8F28A6AB850040BD2A /* AppDelegate.swift */,
 				BD46AD9128A6AB850040BD2A /* SceneDelegate.swift */,
 				BD46AD9328A6AB850040BD2A /* ViewController.swift */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0EF06F28AF2BCA0042B84C /* MoreViewController.swift in Sources */,
 				BD46AD9428A6AB850040BD2A /* ViewController.swift in Sources */,
 				BD46AD9028A6AB850040BD2A /* AppDelegate.swift in Sources */,
 				BD46AD9A28A6AB850040BD2A /* esteeLauder2.xcdatamodeld in Sources */,

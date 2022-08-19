@@ -49,6 +49,9 @@ class NightViewController: UIViewController {
     }
     @IBOutlet weak var shopNowBtn: UIButton!
     
+    @IBAction func findMoreBtnPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://www.esteelauder.com/products/26390/product-catalog/skin-care/skin-care-collections/advanced-night-repair")! as URL, options: [:], completionHandler: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

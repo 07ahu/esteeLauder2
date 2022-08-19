@@ -19,9 +19,9 @@ class ViewController: UIViewController {
     @IBAction func hamburgerBtnTapped(_ sender: Any) {
         //if the hamburger menu is not visible, then move the ubeView back to old place
         if !hamburgerMenuIsVisible {
-            leadingC.constant = 500
+            leadingC.constant = 700
             //negative because moving 150 points outward
-            trailingC.constant = -500
+            trailingC.constant = -700
             
             hamburgerMenuIsVisible = true
         }
@@ -38,9 +38,7 @@ class ViewController: UIViewController {
                 }) { (animationComplete) in
                 }
     }
-    
-    @IBOutlet weak var estee: UILabel!
-    @IBOutlet weak var lauder: UILabel!
+  
     @IBOutlet weak var hands: UIImageView!
     @IBOutlet weak var discovBtn: UIButton!
     
@@ -51,10 +49,24 @@ class ViewController: UIViewController {
         hamburgerMenuIsVisible = false
     }
     
+    @IBAction func instagramPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://www.instagram.com/esteelauder/")! as URL, options: [:], completionHandler: nil)
+    }
     
+    @IBAction func pinterestPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://www.pinterest.com/esteelauder/")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func youtubePressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://www.youtube.com/c/EsteeLauderEL")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func tiktokPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://www.tiktok.com/@esteelauder?lang=en")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func twitterPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://twitter.com/EsteeLauder?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor")! as URL, options: [:], completionHandler: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
 

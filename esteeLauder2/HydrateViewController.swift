@@ -13,11 +13,13 @@ class HydrateViewController: UIViewController {
     
     @IBOutlet weak var hydrating: UILabel!
     
+    @IBOutlet weak var moreLabe: UILabel!
     @IBOutlet weak var fast: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         hydrating.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
         fast.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
+        moreLabe.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
         // Do any additional setup after loading the view.
     }
     
